@@ -15,9 +15,12 @@ end
 
 def get_japanese_emoticon("./lib/emoticons.yml", emoitcon_eng)
   # code goes here
+  emoticon_library = YAML.load_file('lib/emoticons.yml')
 
 end
 
 def get_english_meaning("./lib/emoticons.yml", emoitcon_jap)
   # code goes here
+  emoticon_library = YAML.load_file('lib/emoticons.yml')
+
 end
