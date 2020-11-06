@@ -9,8 +9,8 @@ def load_library
     if emoticons_clean[emotion]
       emoticons_clean[emotion] = {}
 
-      eng = emoticon[0]
-      jap = emoticon[1]
+      emoticons_clean[emotion][:english] = emoticons[0]
+      emoticons_clean[emotion][:japanese] = emoticons[1]
     end
   end
 
