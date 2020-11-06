@@ -34,7 +34,7 @@ def get_english_meaning(file, emoticon_jap)
   emoticon_library.each do |emotion, emoticons|
     emoticons.each do |language, emoticon|
       if emoticon == emoticon_jap
-        return emoticon_library[emotion][:english]
+        return emotion
       end
     end
   end
