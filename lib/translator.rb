@@ -12,6 +12,8 @@ def load_library
     end
   end
 
+  p emoticons_clean
+
 end
 
 def get_japanese_emoticon
