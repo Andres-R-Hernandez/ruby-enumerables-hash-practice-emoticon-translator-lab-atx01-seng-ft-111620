@@ -9,10 +9,7 @@ def load_library
                   emoticons_clean[emotion][:english] = emoticons[0]
                   emoticons_clean[emotion][:japanese] = emoticons[1]
                   end
-  p final_result
 end
-
-load_library
 
 def get_japanese_emoticon
   # code goes here
