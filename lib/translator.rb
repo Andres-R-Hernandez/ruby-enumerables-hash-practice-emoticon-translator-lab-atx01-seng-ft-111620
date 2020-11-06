@@ -38,5 +38,5 @@ def get_english_meaning("./lib/emoticons.yml", emoticon_jap)
       end
     end
   end
-  
+
 end
