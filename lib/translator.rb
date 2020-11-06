@@ -13,7 +13,7 @@ def load_library
       jap = emoticon[1]
     end
   end
-  
+
 end
 
 def get_japanese_emoticon
