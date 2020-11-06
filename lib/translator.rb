@@ -24,7 +24,6 @@ def get_japanese_emoticon("./lib/emoticons.yml", emoticon_eng)
       end
     end
   end
-
 end
 
 def get_english_meaning("./lib/emoticons.yml", emoticon_jap)
