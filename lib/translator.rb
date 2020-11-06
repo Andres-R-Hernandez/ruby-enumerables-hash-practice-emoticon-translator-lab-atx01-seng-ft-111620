@@ -16,7 +16,7 @@ end
 def get_japanese_emoticon("./lib/emoticons.yml", emoticon_eng)
   # code goes here
   emoticon_library = load_library
-  
+
   emoticon_library.each do |emotions, emoticons
 end
 
