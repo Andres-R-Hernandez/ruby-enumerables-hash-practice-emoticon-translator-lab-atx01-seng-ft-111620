@@ -9,7 +9,6 @@ def load_library
       emoticons_clean[emotion] = {}
       emoticons_clean[emotion][:english] = emoticons[0]
       emoticons_clean[emotion][:japanese] = emoticons[1]
-    end
   end
 
   p emoticons_clean
