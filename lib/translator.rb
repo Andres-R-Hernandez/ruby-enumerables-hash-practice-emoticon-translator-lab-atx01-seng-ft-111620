@@ -33,8 +33,8 @@ def get_english_meaning("./lib/emoticons.yml", emoticon_jap)
 
   emoticon_library.each do |emotion, emoticons|
     emoticons.each do |language, emoticon|
-      if emoticon == emoticon_eng
-        return emoticon_library[emotion][:japanese]
+      if emoticon == emoticon_jap
+        return emoticon_library[emotion][:english]
       end
     end
   end
