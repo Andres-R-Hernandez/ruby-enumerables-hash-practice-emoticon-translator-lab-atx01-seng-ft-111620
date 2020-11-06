@@ -13,13 +13,14 @@ def load_library
 
 end
 
-def get_japanese_emoticon("./lib/emoticons.yml", emoitcon_eng)
+def get_japanese_emoticon("./lib/emoticons.yml", emoticon_eng)
   # code goes here
-  emoticon_library = YAML.load_file('lib/emoticons.yml')
-
+  emoticon_library = load_library
+  
+  emoticon_library.each do |emotions, emoticons
 end
 
-def get_english_meaning("./lib/emoticons.yml", emoitcon_jap)
+def get_english_meaning("./lib/emoticons.yml", emoticon_jap)
   # code goes here
   emoticon_library = YAML.load_file('lib/emoticons.yml')
 
