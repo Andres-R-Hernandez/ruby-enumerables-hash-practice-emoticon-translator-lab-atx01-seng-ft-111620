@@ -21,6 +21,7 @@ def get_japanese_emoticon("./lib/emoticons.yml", emoticon_eng)
     emoticons.each do |language, emoticon|
       if emoticon == emoticon_eng
         return emoticon_library[emotion][:japanese]
+      end
     end
   end
 
