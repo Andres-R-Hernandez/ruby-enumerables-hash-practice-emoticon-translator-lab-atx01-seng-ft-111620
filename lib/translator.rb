@@ -13,10 +13,11 @@ def load_library
   
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon("./lib/emoticons.yml", ":)")
   # code goes here
+  
 end
 
-def get_english_meaning
+def get_english_meaning("./lib/emoticons.yml", "(Ｔ▽Ｔ)")
   # code goes here
 end
