@@ -6,9 +6,7 @@ def load_library
   emoticon_library = YAML.load_file('emoticons.yml')
 
   emoticon_library.each_with_object({}) do |(emotion, emoticons), emoticons_clean|
-    if emoticons_clean[emotion]
       emoticons_clean[emotion] = {}
-
       emoticons_clean[emotion][:english] = emoticons[0]
       emoticons_clean[emotion][:japanese] = emoticons[1]
     end
