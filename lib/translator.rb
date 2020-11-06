@@ -12,7 +12,7 @@ def load_library
       eng = emoticon[0]
       jap = emoticon[1]
     end
-        
+
   end
 end
 
