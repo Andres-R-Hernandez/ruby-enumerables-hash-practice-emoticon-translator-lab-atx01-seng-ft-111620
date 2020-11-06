@@ -38,5 +38,5 @@ def get_english_meaning(file, emoticon_jap)
       end
     end
   end
-  puts "Sorry, that emoticon was not found"
+  p "Sorry, that emoticon was not found"
 end
